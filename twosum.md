@@ -23,7 +23,9 @@ function twoSum(nums, target) {
   return null;
 }
 ```  
+
 ([Source](https://leetcode.com/problems/two-sum/))
+
 ## Example  
 
 For example, if we have the input nums = [2, 7, 11, 15] and target = 9, the output would be [0, 1] because nums[0] + nums[1] = 2 + 7 = 9.
@@ -36,5 +38,7 @@ To test the solution, we can use a test case like the following:
 
 console.log(twoSum([2, 7, 11, 15], 9)); // Output: [0, 1]
 console.log(twoSum([3, 2, 4], 6)); // Output: [1, 2]
-console.log(twoSum([3, 3], 6)); // Output: [0, 1]  
+console.log(twoSum([3, 3], 6)); // Output: [0, 1] 
+console.log(twoSum([2, 5, 5, 11], 10)); // Output: [1, 2]
+console.log(twoSum([1, 2, 3, 4, 6], 6)); // Output: [3, 4] 
 ```  
